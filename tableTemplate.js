@@ -1,7 +1,6 @@
-/**
- * Created by luis on 5/16/2016.
- */
+
 $(function(){
+	//Make request when jQuery is available
     $.get("http://localhost:3000/playList").then(function(data){
         var playA=data.playlist.a;
         var index=0;
