@@ -1,0 +1,29 @@
+table{
+    background:white;
+}
+img{
+    width:100px;
+    padding:0px;
+}
+#formPopUp{
+    position:absolute;
+    width:250px;
+    height:400px;
+    top:50vh;
+    left:50vw;
+    margin-top:-200px;
+    margin-left:-200px;
+    display:none;
+}
+#formPopUp input, #formPopUp label{
+    display:block;
+}
+#formPopUp.showPopUp{
+    display:block;
+}
+#container.parcialOpacity{
+    opacity: .4;
+}
+#container.parcialOpacity a{
+    display:none;
+}

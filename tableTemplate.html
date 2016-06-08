@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="tableTemplate.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <table class="table table-striped table-hover " >
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Label</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody id="tblid">
+
+        </tbody>
+    </table>
+    <script src="tableTemplate.js"></script>
+</div>
+<section id="formPopUp" class="well">
+    <form>
+        <h4>Edit Music</h4>
+        <label for="title">Title:</label>
+        <input id="title" name="title" type="text" required>
+        <label for="artist">Artist:</label>
+        <input id="artist" name="artist" type="text" required>
+        <label for="label">Label:</label>
+        <input id="label" name="label" type="text" required>
+        <label for="image">Image:</label>
+        <input id="image" name="image" type="url" required>
+        <label for="playlist">Playlist:</label>
+        <input id="playlist" name="playlist" type="url" required>
+        <label for="status">Status:</label>
+        <input id="status" name="status" type="text" required>
+        <button type="submit" id="save">Save</button>
+        <button id="cancel"  type="button">Cancel</button>
+    </form>
+</section>
+</body>
+</html>
